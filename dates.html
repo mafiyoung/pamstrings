@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+    <head>
+      <meta charset = "utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Pamstrings - Events</title>
+      <link rel="stylesheet" type="text/css" href="./css/style.css" />
+      <style type="text/css">
+        #r1{
+        	position: relative;
+        	top:100px;
+        }
+
+        #r2{
+        	position: relative;
+        	top: 120px;
+        	text-align: center;
+        	background-color: transparent;
+        }
+
+        table{
+        	width: 100%;
+        	text-align: center;
+        	margin: 0px;
+        	background-color: #fff;
+        	padding: 20px;
+        }
+
+        tr{
+        	display: inline-block;
+        	border-bottom: 2px solid #F23B69;
+        	margin-top:20px; 
+        	width: 100%;
+        	background: #fcfcfc;
+        }
+
+        td, th{
+        	margin: 20px;
+        }
+
+        td{
+        	float: left;
+        	padding: 10px;
+        	font-family: roboto;
+        	font-weight: 200;
+        	font-size: 1.3em;
+        	color: black;
+        	width: 30%;
+        	min-width: 200px;
+        }
+
+        th{
+        	font-family: roboto;
+        	font-size: 1.3em;
+        	color: #454545;
+        }
+
+
+        .footer{
+        	position: relative;
+        	top:155px;
+        }
+
+  @media only screen and (max-width:768px){
+
+        .col-m-1{width: 8.33%;}
+        .col-m-2{width: 16.66%;}
+        .col-m-3{width: 25%;}
+        .col-m-4{width: 33.33%;}
+        .col-m-5{width: 41.66%;}
+        .col-m-6{width: 50%;}
+        .col-m-7{width: 58.33%;}
+        .col-m-8{width: 66.66%;}
+        .col-m-9{width: 75%;}
+        .col-m-10{width: 83.33%;}
+        .col-m-11{width: 91.66%;}
+        .col-m-12{width: 100%;}
+
+        .omit{
+        	width: 0px;
+        	padding: 0px;
+        }
+
+        table{
+        	margin: 0;
+        	padding: 0px;
+        }
+
+        #r2 div{
+        	padding: 0;
+        }
+  }
+
+   @media only screen and (max-width:768px){
+   	 td, th{
+   	 	font-size: 1em;
+   	 }
+   }
+      </style>
+      <script type="text/javascript" src="./scripts/main.js"></script>
+    </head>
+
+    <body>
+
+      <!--HEADER GOES HERE-->
+
+      <div id="header">
+       <div id="nav_button" onclick="myFunc()">
+            <div style="top:10px;" id="1"></div>
+            <div style="top:25px;" id="2"></div>
+            <div style="top:40px;" id="3"></div>
+        </div>
+        <p></p>
+         <div id="logo_small"></div>
+      </div>
+
+      <!--NAVIGATION MENU-->
+
+       <div id="menu">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html" >About</a></li>
+          <li><a href="./listen.html" >Songs</a></li>
+          <li><a href="./dates.html" >Events</a></li>
+          <li><a href="./gallery.html" >Gallery</a></li>
+        </ul>
+      </div>
+      <div id="trans_bg" onclick="myFunc()"></div>
+
+      <!--HEADING-->
+
+      <div class="rows" id="r1">
+        <div class="col-2 omit"></div>
+        <div class="col-10"><h1 style="color:#fff; margin:5px;">Events</h1></div>
+      </div>
+
+      <!--FULL EVENT LIST-->
+
+      <div class="rows" id="r2">
+        <div class="col-1 omit"></div>
+        <div class="col-10 col-m-12">
+        	<table>
+        	  <tr>
+        	    <th>25 FEB</th>
+        	    <td class="venue">COCIN RCC DU</td>
+        	    <td class="city">Jos</td>
+        	  </tr>
+        	   <tr>
+        	    <th>26 FEB</th>
+        	    <td class="venue">COCIN LCC Rabin Du </td>
+        	    <td class="city">Jos</td>
+        	  </tr>
+        
+			  
+        	</table>
+        </div>
+        <div class="col-1 omit"></div>
+      </div>
+
+      <!--FOOTER-->
+      <div class="footer wow fadeInDown" data-wow-duration="1s">
+        <div class="container">
+          <div class="socialicon">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+           
+        <div class="col-lg-12">
+          <p>&copy; Pamstrings 2022 (All Rights Reserved.)</p>	 	
+         </div>
+         <div class="col-lg--5">
+          <p>Designed by <a href="https://www.instagram.com/mafiyoungofficial/">mafiyoung</a></p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+    </body>
+
+  </html>
